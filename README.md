@@ -12,3 +12,9 @@ npm install
 npm run dev
 ```
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## How to clone a specific tagged version of the repository?
+
+```bash
+git clone --branch <tag_name> <repo_url>
+```
