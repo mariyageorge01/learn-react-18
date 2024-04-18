@@ -18,3 +18,9 @@ npm run dev
 ```bash
 git clone --branch <tag_name> <repo_url>
 ```
+
+For eg:
+```bash
+git clone --branch v1.0.0 <http link>
+```
+
