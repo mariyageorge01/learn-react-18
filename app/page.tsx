@@ -14,6 +14,11 @@ export default function Home() {
         <p>Efficient component</p>
         <EfficientComponent />
       </div>
+
+      <div className={styles.inputGroup}>
+        <input className={styles.input} type="text" name="username" id="username"/>
+        <label className={styles.label} htmlFor="username" id="username">Username</label>
+      </div>
     </main>
   );
 }
